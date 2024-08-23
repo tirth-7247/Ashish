@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+    <style>
+        .nav {
+            color: #012970;
+        }
+
+        .navbar-nav {
+            color: #012970;
+
+        }
+
+        .but {
+            background-color: #4154F1;
+            padding: 6px 30px;
+            text-decoration: none;
+            border-radius: 4px;
+
+        }
+
+        .sec-2 {
+            width: 100%;
+            min-height: 70vh;
+            position: relative;
+            padding: 80px 0px 60px 0px;
+            display: flex;
+            align-items: center;
+            background: url("image/hero-bg\ \(1\).png") top center no-repeat;
+            background-size: cover;
+        }
+
+        .sec-2 h1 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 56px;
+            color: #012790;
+        }
+
+        .sec-2 p {
+            color: color-mix(in srgb, #444444, transparent 30%);
+            margin: 5px 0 30px 0;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .get-start-btn {
+            color: #fff;
+            background: #4154f1;
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 40px;
+            border-radius: 4px;
+            transition: 0.5s;
+            box-shadow: 0 8px 28px color-mix(in srgb, #4154f1, transparent 80%);
+            text-decoration: none;
+        }
+
+        .get-start-btn i {
+            margin-left: 5px;
+            font-size: 18px;
+            transition: 0.3s
+        }
+
+        .watch-video-btn {
+            font-size: 16px;
+            transition: 0.5s;
+            color: #444444;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .watch-video-btn i {
+            color: #4154f1;
+            font-size: 32px;
+            transition: 0.3s;
+            line-height: 0;
+            margin-right: 8px;
+        }
+
+        a:hover {
+            color:  #4154f1;
+            text-decoration: none;
+        }
+
+        #s3-about {
+            position: relative;
+            color: #444444;
+            background-color: #ffffff;
+            padding: 60px 0;
+        }
+
+        .s3-data h3 {
+
+            font-size: 14px;
+            font-weight: 700;
+            color: #4154f1;
+            text-transform: uppercase;
+        }
+
+        .s3-data h2 {
+            font-family: "Nunito", sans-serif;
+            color: #012970;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .s3-data p {
+            margin: 15px 0 30px 0;
+            line-height: 24px;
+        }
+
+
+
+        #s3-about a {
+            text-decoration: none !important;
+        }
+
+
+        .aboutbtn i {
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+
+        .aboutbtn {
+            padding: 15px 40px;
+            color: #ffffff;
+            background: #4154f1;
+            line-height: 0;
+            border-radius: 4px;
+
+            box-shadow: 0px 5px 25px color-mix(in srgb, #4154f1, transparent 90%);
+        }
+
+
+        .s3-data {
+            padding: 40px;
+            background-color:
+                color-mix(in srgb, #4154f1, transparent 95%);
+
+        }
+
+        .yo {
+      text-align: center;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 8px 20px;
+    
+   
+    text-transform: uppercase;
+    border-radius: 50px;
+  
+}
+
+.yo12 {
+    color: #012790;
+    margin: 10px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+  
+}
+
+.values .card {
+    background-color: white;
+    color: #444444;
+    padding: 30px;
+    box-shadow: 0px 0 10px black;
+
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+    border: 0;
+}
+
+.stats .stats-item {
+
+  padding: 30px;
+}
+
+.stats .stats-item i {
+  color: #4154f1;;
+  font-size: 42px;
+  line-height: 0;
+  margin-right: 20px;
+}
+
+.stats .stats-item span {
+  color: #012970;
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+}
+
+.stats .stats-item p {
+  padding: 0;
+  margin: 0;
+ 
+  font-size: 16px;
+}
+
+.box {
+    padding: 24px 20px;
+    box-shadow: 0px 0 30px antiquewhite;
+
+    transition: 0.3s;
+    height: 100%;
+}
+
+.box i {
+    background: azure;
+
+    color: #4154f1;;
+    line-height: 0;
+    padding: 17px 18px;
+    margin-right: 10px;
+    font-size: 24px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.re{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+}
+
+
+
+
+
+
+
+#sec7{
+    color: #444444;
+    background-color: #ffffff;
+    padding: 60px 0;
+
+}
+.s7-icon i {
+    font-size: 44px;
+    line-height: 44px;
+    color: #4154F1;
+    margin-right: 15px;
+}
+.s7-icon h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+.s7-icon p {
+    font-size: 15px;
+    color:  #444444;
+
+    margin-bottom: 0;
+}
+.s7-icon {
+    display: flex !important;
+}
+
+
+
+
+
+
+
+/* Section Contact */
+.contact{
+    padding: 60px 0;
+}
+#contact_h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0 auto;
+    display: inline-block;
+    background-color: #4153f127;
+    color: #4154f1;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;
+}
+#contact_p{
+    margin: 10px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+    padding-bottom: 60px;
+}
+.contact_detail{
+    padding: 30px;
+    background-color: #44444409;
+}
+.contact_detail i{
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+}
+.contact_detail h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+}
+.contact_detail p{
+    line-height: 24px;
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+}
+.contact_form{
+    padding: 30px;
+    background-color: #44444409;
+    height: 100%;
+}
+.form_input{
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    color: #444444;
+    background-color: #ffffffba;
+    border-radius: 0;
+    border-color: #44444426;
+}
+.form_btn{
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+    border-radius: 4px;
+    background-color: #4154f1;
+    color: #fff;
+    cursor: pointer;
+}
+.form_btn:hover{
+    background-color: #4153f1c9;
+}
+
+
+
+#pricing {
+    padding: 60px 0;
+    overflow: hidden;
+    display: block;
+}
+
+#pricing p {
+    margin: 10px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #012970;
+}
+
+#pricing h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-family: var(--default-font);
+}
+
+.pricing .box {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing h3 {
+    font-weight: 400;
+    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #41D1A6;
+    background: #f8f8f8;
+}
+
+.pricing h4 {
+    font-size: 36px;
+    color: #012970;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+.pricing h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+}
+
+.pricing h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.pricing ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.pricing ul li {
+    padding-bottom: 16px;
+}
+
+.pricing ul i {
+    /* color: #3fbbc0; */
+    font-size: 18px;
+    padding-right: 4px;
+}
+
+.pricing ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.pricing .btn-wrap {
+    margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.pricing .btn-buy {
+    border: 2px solid #ADB5F9;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 50px;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.pricing .btn-buy:hover {
+    background: #4154F1;
+    color: white;
+}
+
+.pricing .featured h3 {
+    color: #0dcaf0;
+
+}
+
+.pricing .bussines h3 {
+    color: #FEA459;
+}
+
+.pricing .ultimate h3 {
+    color: #0d6efd;
+}
+
+.pricing .advanced {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #4154F1;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container">
+            <a class="navbar-brand " href="#">
+                <h2 class="nav"> <img src="logo.png" alt=""> FlexStart</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex align-items-center me-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown 1
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Deep Dropdown 1</a></li>
+                            <li><a class="dropdown-item" href="#">Deep Dropdown 2</a></li>
+                            <li><a class="dropdown-item" href="#">Deep Dropdown 3</a></li>
+                            <li><a class="dropdown-item" href="#">Deep Dropdown 4</a></li>
+                            <li><a class="dropdown-item" href="#">Deep Dropdown 5</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Listing Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Column 1 link 1</a></li>
+                            <li><a class="dropdown-item" href="#">Column 1 link 2</a></li>
+                            <li><a class="dropdown-item" href="#">Column 1 link 3</a></li>
+                            <li><a class="dropdown-item" href="#">Column 2 link 1</a></li>
+                            <li><a class="dropdown-item" href="#">Column 2 link 2</a></li>
+                            <li><a class="dropdown-item" href="#">Column 2 link 3</a></li>
+                            <li><a class="dropdown-item" href="#">Column 3 link 1</a></li>
+                            <li><a class="dropdown-item" href="#">Column 3 link 2</a></li>
+                            <li><a class="dropdown-item" href="#">Column 3 link 3</a></li>
+                            <li><a class="dropdown-item" href="#">Column 4 link 1</a></li>
+                            <li><a class="dropdown-item" href="#">Column 4 link 2</a></li>
+                            <li><a class="dropdown-item" href="#">Column 4 link 3</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                    </li>
+                </ul>
+            </div>
+            <a class="btn-getstarted flex-md-shrink-0 but text-white" href="">Get Started</a>
+        </div>
+    </nav>
+    <section id="sec-2" class="sec-2 section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-6 order-2 order-lg-1  justify-content-center">
+                    <h1>We offer modern solutions for growing your business</h1>
+                    <p>We are team of talented designers making websites with Bootstrap</p>
+                    <div class="d-flex">
+                        <a href="" class="get-start-btn">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href=""
+                            class="watch-video-btn align-items-center justify-content-center ms-0 ms-md-4 mt-md-0 d-flex">
+                            <i class="fa-regular fa-circle-play"></i>
+                            <span>Watch Video</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 right-img ">
+                    <img src="hero-img.png" class="img-fluid " alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="s3-about">
+
+        <div class="container">
+            <div class="row gx-0">
+
+                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="s3-data">
+                        <h3>Who We Are</h3>
+                        <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat
+                            corrupti reprehenderit.</h2>
+                        <p>
+                            Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor
+                            consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et
+                            est corrupti.
+                        </p>
+                        <div class="text-center text-lg-start">
+                            <a href=""
+                                class="aboutbtn d-inline-flex align-items-center justify-content-center align-self-center">
+                                <span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                    <img src="about.jpg" class="img-fluid" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+   
+   
+   
+    <section id="values" class="values ">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2 class="yo">Our Values</h2>
+          <p class="yo12 text-center">What we value most<br></p>
+        </div>
+
+        <div class="container mt-5" >
+
+            <div class="row gy-4">
+    
+              <div class="col-lg-4" >
+                <div class="card">
+                  <img src="values-1.png" class="img-fluid" alt="">
+                  <h3 style="color: #012970;">Ad cupiditate sed est odio</h3>
+                  <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+                </div>
+              </div>
+    
+              <div class="col-lg-4" >
+                <div class="card">
+                  <img src="values-2.png" class="img-fluid" alt="">
+                  <h3  style="color: #012970;">Voluptatem voluptatum alias</h3>
+                  <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+                </div>
+              </div>
+    
+              <div class="col-lg-4" >
+                <div class="card">
+                  <img src="values-3.png" class="img-fluid" alt="">
+                  <h3 style="color: #012970;">Fugit cupiditate alias nobis.</h3>
+                  <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                </div>
+              </div>
+    
+            </div>
+    
+          </div>
+    
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section id="stats" class="stats ">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+      
+              <div class="row gy-4">
+      
+                <div class="col-lg-3 col-md-6">
+                  <div class="stats-item d-flex align-items-center w-100 h-100">
+                    <i class="bi  color-blue flex-shrink-0 fa-solid fa-book-journal-whills "></i>
+                   
+                    <div>
+                      <span  class="purecounter">232</span>
+                      <p >Happy Clients</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-6">
+                  <div class="stats-item d-flex align-items-center w-100 h-100">
+                    <i class="bi fa-solid fa-house color-orange flex-shrink-0" style="color: #ee6c20;"></i>
+                    <div>
+                      <span  class="purecounter">521</span>
+                      <p>Projects</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-6">
+                  <div class="stats-item d-flex align-items-center w-100 h-100">
+                    <i class="bi fa-solid fa-headset color-green flex-shrink-0" style="color: #15be56;"></i>
+                   
+                    <div>
+                      <span class="purecounter">1463</span>
+                      <p>Hours Of Support</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-6">
+                  <div class="stats-item d-flex align-items-center w-100 h-100">
+                    <i class="bi fa-solid fa-person color-pink flex-shrink-0" style="color: #bb0852;"></i>
+                   
+                    <div>
+                      <span  class="purecounter">15</span>
+                      <p>Hard Workers</p>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+            </div>
+      
+          </section>
+
+
+
+
+
+
+
+
+
+
+          <section id="features" class="features  mt-5 ">
+
+       
+            <div class="container section-title">
+              <h2 class="yo">Features</h2>
+              <p class="yo12 text-center">Our Advacedd Features<br></p>
+            </div>
+      
+            <div class="container">
+      
+              <div class="row gy-5">
+      
+                <div class="col-xl-6" >
+                  <img src="features.png" class="img-fluid" alt="">
+                </div>
+      
+                <div class="col-xl-6 d-flex">
+                  <div class="row align-self-center gy-4">
+      
+                    <div class="col-md-6" >
+                      <div class="box d-flex align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <h3 class="re">Eos aspernatur rem</h3>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6" >
+                      <div class="box d-flex align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <h3 class="re">Facilis neque ipsa</h3>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6" >
+                      <div class="box d-flex align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <h3 class="re">Volup amet volupt</h3>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6">
+                      <div class="box d-flex align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <h3 class="re">Rerum omnis sint</h3>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6" >
+                      <div class="box d-flex align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <h3 class="re">Alias possimus</h3>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6" >
+                      <div class="box d-flex align-items-center">
+                        <i class="fa-solid fa-check "></i>
+                        <h3 class="re">Repellendus molli</h3>
+                      </div>
+                    </div>
+      
+                  </div>
+                </div>
+      
+              </div>
+      
+            </div>
+      
+          </section>
+
+
+
+
+
+
+
+
+
+          <section id="sec7">
+
+            <div class="container">
+      
+              <div class="row gy-5">
+      
+                <div class="col-xl-7 d-flex order-2 order-xl-1" >
+      
+                  <div class="row align-self-center gy-5">
+      
+                    <div class="col-md-6 s7-icon">
+                    <i class="fa-solid fa-award"></i>
+                      <div>
+                        <h4>Corporis voluptates sit</h4>
+                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6 s7-icon">
+                        <i class="fa-solid fa-list-check"></i>
+                      <div>
+                        <h4>Ullamco laboris nisi</h4>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6 s7-icon">
+                    <i class="fa-solid fa-basketball"></i>
+                      <div>
+                        <h4>Labore consequatur</h4>
+                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6 s7-icon">
+                        <i class="fa-solid fa-filter-circle-xmark"></i>
+                      <div>
+                        <h4>Beatae veritatis</h4>
+                        <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6 s7-icon">
+                        <i class="fa-solid fa-bolt"></i>
+                      <div>
+                        <h4>Molestiae dolor</h4>
+                        <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6 s7-icon">
+                        <i class="fa-regular fa-circle-check"></i>
+                      <div>
+                        <h4>Explicabo consectetur</h4>
+                        <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                      </div>
+                    </div>
+      
+                  </div>
+      
+                </div>
+      
+                <div class="col-xl-5 d-flex align-items-center order-1 order-xl-2" >
+                  <img src="alt-features.png" class="img-fluid" alt="">
+                </div>
+      
+              </div>
+      
+            </div>
+      
+          </section>
+
+
+          <section id="pricing" class="pricing">
+            <div class="container aos-init aos-animate" data-aos="fade-up">
+                <div class="section-title my text-center">
+                    <h2>Pricing</h2>
+                    <p>Check Our Affordable Pricing</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 w-25">
+                        <div class="box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                            <h3>Free Plan</h3>
+                            <h4><sup>$</sup>0<span> / month</span></h4>
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li class="na">Pharetra massa</li>
+                                <li class="na">Massa ultricies mi</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+                        <div class="box featured aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                            <span class="advanced">Featured</span>
+                            <h3>Starter Plan</h3>
+                            <h4><sup>$</sup>19<span> / month</span></h4>
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li>Pharetra massa</li>
+                                <li class="na">Massa ultricies mi</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                        <div class="box aos-init aos-animate bussines" data-aos="fade-up" data-aos-delay="300">
+                            <h3>Business Plan</h3>
+                            <h4><sup>$</sup>29<span> / month</span></h4>
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li>Pharetra massa</li>
+                                <li>Massa ultricies mi</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                        <div class="box aos-init aos-animate ultimate" data-aos="fade-up" data-aos-delay="400">
+                            <h3>Ultimate Plan</h3>
+                            <h4><sup>$</sup>49<span> / month</span></h4>
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li>Pharetra massa</li>
+                                <li>Massa ultricies mi</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </section>
+
+
+
+
+
+     
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="container text-center contact">
+            <h2 id="contact_h2" class="">CONTACT</h2>
+            <p id="contact_p">Contact Us</p>
+            <div class="row gy-4">
+                <div class="col-lg-6">
+                    <div class="row gy-4">
+                        <div class="col-md-6">
+                            <div class="contact_detail">
+                                <i class="bi bi-geo-alt"></i>
+                                <h3>Address</h3>
+                                <p>A108 Adam Street</p>
+                                <p>New York, NY 535022</p>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-6">
+                            <div class="contact_detail">
+                                <i class="bi bi-telephone"></i>
+                                <h3>Call Us</h3>
+                                <p>+1 5589 55488 55</p>
+                                <p>+1 6678 254445 41</p>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-6">
+                            <div class="contact_detail">
+                                <i class="bi bi-envelope"></i>
+                                <h3>Email Us</h3>
+                                <p>info@example.com</p>
+                                <p>contact@example.com</p>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-6">
+                            <div class="contact_detail">
+                                <i class="bi bi-clock"></i>
+                                <h3>Open Hours</h3>
+                                <p>Monday - Friday</p>
+                                <p>9:00AM - 05:00PM</p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form class="contact_form">
+                        <div class="row gy-4 ">
+                            <div class="col-md-6 form_detail">
+                                <input type="text" name="name" class="form-control form_input" placeholder="Your Name"
+                                    required="">
+                            </div>
+    
+                            <div class="col-md-6  form_detail">
+                                <input type="email" class="form-control form_input" name="email" placeholder="Your Email"
+                                    required="">
+                            </div>
+    
+                            <div class="col-md-12">
+                                <input type="text" class="form-control form_input" name="subject" placeholder="Subject"
+                                    required="">
+                            </div>
+    
+                            <div class="col-md-12">
+                                <textarea class="form-control form_input" name="message" rows="6" placeholder="Message"
+                                    required=""></textarea>
+                            </div>
+    
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="form_btn">Send Message</button>
+                            </div>
+    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
